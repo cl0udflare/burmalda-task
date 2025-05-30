@@ -11,7 +11,7 @@ namespace Infrastructure.Installers
         {
             Container.Bind<BootstrapState>().AsSingle().NonLazy();
 
-            Container.BindInterfacesAndSelfTo<GameStateMachine>().AsSingle();
+            Container.BindInterfacesAndSelfTo<GameStateMachine>().AsSingle(); // ENTRY POINT
            
             DebugLogger.LogMessage("Install", this);
         }
