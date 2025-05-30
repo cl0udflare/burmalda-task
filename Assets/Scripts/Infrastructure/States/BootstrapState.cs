@@ -1,4 +1,5 @@
-﻿using Infrastructure.Services.Loading;
+﻿using Gameplay.Services.StaticData;
+using Infrastructure.Services.Loading;
 using Infrastructure.States.Interfaces;
 
 namespace Infrastructure.States
@@ -7,15 +8,19 @@ namespace Infrastructure.States
     {
         private readonly GameStateMachine _stateMachine;
         private readonly ISceneLoader _sceneLoader;
+        private readonly IStaticDataService _staticDataService;
 
-        public BootstrapState(GameStateMachine stateMachine, ISceneLoader sceneLoader)
+        public BootstrapState(GameStateMachine stateMachine, ISceneLoader sceneLoader, IStaticDataService staticDataService)
         {
             _stateMachine = stateMachine;
             _sceneLoader = sceneLoader;
+            _staticDataService = staticDataService;
         }
 
         public void Enter()
         {
+            _staticDataService.LoadAll();
+            
             _sceneLoader.LoadScene(Scenes.Boot, LoadedScene);
         }
 
@@ -24,6 +29,6 @@ namespace Infrastructure.States
         }
         
         private void LoadedScene() =>
-            _stateMachine.Enter<HomeScreenState, string>(Scenes.HomeScreen);
+            _stateMachine.Enter<HomeScreenState>();
     }
 }

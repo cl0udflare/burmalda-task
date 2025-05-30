@@ -50,7 +50,7 @@ namespace Infrastructure.Installers
 
         private void BindGameplayServices()
         {
-            Container.Bind<IStaticDataService>().To<StaticDataService>().AsSingle();
+           
         }
     }
 }

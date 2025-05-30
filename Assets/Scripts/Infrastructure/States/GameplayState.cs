@@ -4,7 +4,7 @@ using Infrastructure.States.Interfaces;
 
 namespace Infrastructure.States
 {
-    public class GameplayState : IPayloadedState<string>
+    public class GameplayState : IState
     {
         private readonly ISceneLoader _sceneLoader;
         private readonly ICurtainFactory _curtainFactory;
@@ -15,10 +15,10 @@ namespace Infrastructure.States
             _curtainFactory = curtainFactory;
         }
         
-        public void Enter(string sceneName)
+        public void Enter()
         {
             _curtainFactory.Curtain.Show();
-            _sceneLoader.LoadScene(sceneName, LoadedScene);
+            _sceneLoader.LoadScene(Scenes.Gameplay, LoadedScene);
         }
 
         public void Exit()
