@@ -1,4 +1,4 @@
-﻿using Infrastructure.Loading;
+﻿using Infrastructure.Services.Loading;
 using Infrastructure.States.Interfaces;
 
 namespace Infrastructure.States

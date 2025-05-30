@@ -1,5 +1,5 @@
-﻿using Infrastructure.Factories.Curtain;
-using Infrastructure.Loading;
+﻿using Gameplay.Factories.Curtain;
+using Infrastructure.Services.Loading;
 using Infrastructure.States.Interfaces;
 
 namespace Infrastructure.States
