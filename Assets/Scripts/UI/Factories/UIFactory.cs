@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using Gameplay.Services.StaticData;
 using Infrastructure.Services.AssetManagement;
 using UnityEngine;
@@ -28,19 +27,14 @@ namespace UI.Factories
         public void CreateUIRoot()
         {
             GameObject uiRoot = _assetProvider.Load<GameObject>(UI_ROOT_PATH);
-            _uiRoot = _container.InstantiatePrefab(uiRoot);
+            _uiRoot = Object.Instantiate(uiRoot);
         }
         
         public void CreateMainMenu()
         {
             GameObject mainMenu = _assetProvider.Load<GameObject>(MAIN_MENU_PATH);
-            _mainMenu = _container.InstantiatePrefab(mainMenu, _uiRoot.transform);
-        }
-
-        public void Cleanup()
-        {
-            Object.Destroy(_uiRoot?.gameObject);
-            Object.Destroy(_mainMenu?.gameObject);
+            _mainMenu = Object.Instantiate(mainMenu, _uiRoot.transform);
+            _container.InjectGameObject(_mainMenu);
         }
     }
 }

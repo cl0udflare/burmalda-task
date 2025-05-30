@@ -26,7 +26,6 @@ namespace Infrastructure.States
 
         public void Exit()
         {
-            _uiFactory.Cleanup();
         }
 
         private void LoadedScene()

@@ -1,4 +1,6 @@
 using Gameplay.Factories.Curtain;
+using Gameplay.Player.Factory;
+using Gameplay.Services.Input;
 using Gameplay.Services.StaticData;
 using Infrastructure.Factories.State;
 using Infrastructure.Services.AssetManagement;
@@ -20,6 +22,7 @@ namespace Infrastructure.Installers
             BindUIFactories();
             BindUIServices();
             
+            BindGameplayFactories();
             BindGameplayServices();
 
             DebugLogger.LogMessage("Install", this);
@@ -28,7 +31,6 @@ namespace Infrastructure.Installers
         private void BindInfrastructureFactories()
         {
             Container.Bind<StateFactory>().AsSingle();
-            Container.Bind<ICurtainFactory>().To<CurtainFactory>().AsSingle();
         }
 
         private void BindInfrastructureServices()
@@ -48,9 +50,15 @@ namespace Infrastructure.Installers
             Container.Bind<IStaticDataService>().To<StaticDataService>().AsSingle();
         }
 
+        private void BindGameplayFactories()
+        {
+            Container.Bind<ICurtainFactory>().To<CurtainFactory>().AsSingle();
+            Container.Bind<IPlayerFactory>().To<PlayerFactory>().AsSingle();
+        }
+
         private void BindGameplayServices()
         {
-           
+            Container.Bind<IInputService>().To<KeyboardInputService>().AsSingle().NonLazy();
         }
     }
 }

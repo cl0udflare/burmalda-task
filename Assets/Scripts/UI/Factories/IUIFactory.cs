@@ -4,6 +4,5 @@ namespace UI.Factories
     {
         void CreateUIRoot();
         void CreateMainMenu();
-        void Cleanup();
     }
 }

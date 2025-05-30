@@ -1,4 +1,6 @@
 ﻿using Gameplay.Factories.Curtain;
+using Gameplay.Player;
+using Gameplay.Player.Factory;
 using Infrastructure.Services.Loading;
 using Infrastructure.States.Interfaces;
 
@@ -8,11 +10,13 @@ namespace Infrastructure.States
     {
         private readonly ISceneLoader _sceneLoader;
         private readonly ICurtainFactory _curtainFactory;
+        private readonly IPlayerFactory _playerFactory;
 
-        public GameplayState(ISceneLoader sceneLoader, ICurtainFactory curtainFactory)
+        public GameplayState(ISceneLoader sceneLoader, ICurtainFactory curtainFactory, IPlayerFactory playerFactory)
         {
             _sceneLoader = sceneLoader;
             _curtainFactory = curtainFactory;
+            _playerFactory = playerFactory;
         }
         
         public void Enter()
@@ -28,7 +32,15 @@ namespace Infrastructure.States
 
         private void LoadedScene()
         {
+            CreatePlayer();
+            
             _curtainFactory.Curtain.Hide();
+        }
+
+        private void CreatePlayer()
+        {
+            PlayerController player = _playerFactory.CreatePlayer();
+            player.Run();
         }
     }
 }
