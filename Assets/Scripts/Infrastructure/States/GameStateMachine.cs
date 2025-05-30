@@ -22,6 +22,7 @@ namespace Infrastructure.States
             _states = new Dictionary<Type, IExitableState>
             {
                 [typeof(BootstrapState)] = _stateFactory.CreateState<BootstrapState>(),
+                [typeof(HomeScreenState)] = _stateFactory.CreateState<HomeScreenState>(),
             };
 
             Enter<BootstrapState>();

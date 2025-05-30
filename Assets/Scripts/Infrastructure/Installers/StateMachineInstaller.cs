@@ -10,6 +10,7 @@ namespace Infrastructure.Installers
         public override void InstallBindings()
         {
             Container.Bind<BootstrapState>().AsSingle().NonLazy();
+            Container.Bind<HomeScreenState>().AsSingle().NonLazy();
 
             Container.BindInterfacesAndSelfTo<GameStateMachine>().AsSingle(); // ENTRY POINT
            

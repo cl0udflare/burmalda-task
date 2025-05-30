@@ -1,5 +1,9 @@
+using Infrastructure.AssetManagement;
+using Infrastructure.Factories.Curtain;
 using Infrastructure.Factories.State;
+using Infrastructure.Loading;
 using Logging;
+using Services.CoroutineRunner;
 using Zenject;
 
 namespace Infrastructure.Installers
@@ -8,14 +12,24 @@ namespace Infrastructure.Installers
     {
         public override void InstallBindings()
         {
-            BindFactories();
+            Container.Bind<IAssetProvider>().To<AssetProvider>().AsSingle();
+            
+            BindInfrastructureFactories();
+            BindCommonServices();
 
             DebugLogger.LogMessage("Install", this);
         }
 
-        private void BindFactories()
+        private void BindInfrastructureFactories()
         {
             Container.Bind<StateFactory>().AsSingle();
+            Container.Bind<ICurtainFactory>().To<CurtainFactory>().AsSingle();
+        }
+        
+        private void BindCommonServices()
+        {
+            Container.Bind<ICoroutineRunnerService>().To<CoroutineRunnerService>().FromComponentInHierarchy().AsSingle();
+            Container.Bind<ISceneLoader>().To<SceneLoader>().AsSingle();
         }
     }
 }
