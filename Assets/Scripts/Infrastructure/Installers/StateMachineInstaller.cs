@@ -11,6 +11,7 @@ namespace Infrastructure.Installers
         {
             Container.Bind<BootstrapState>().AsSingle().NonLazy();
             Container.Bind<HomeScreenState>().AsSingle().NonLazy();
+            Container.Bind<GameplayState>().AsSingle().NonLazy();
 
             Container.BindInterfacesAndSelfTo<GameStateMachine>().AsSingle(); // ENTRY POINT
            

@@ -23,6 +23,7 @@ namespace Infrastructure.States
             {
                 [typeof(BootstrapState)] = _stateFactory.CreateState<BootstrapState>(),
                 [typeof(HomeScreenState)] = _stateFactory.CreateState<HomeScreenState>(),
+                [typeof(GameplayState)] = _stateFactory.CreateState<GameplayState>(),
             };
 
             Enter<BootstrapState>();

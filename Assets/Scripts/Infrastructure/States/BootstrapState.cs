@@ -1,5 +1,4 @@
-﻿using Infrastructure.Factories.Curtain;
-using Infrastructure.Loading;
+﻿using Infrastructure.Loading;
 using Infrastructure.States.Interfaces;
 
 namespace Infrastructure.States
@@ -8,18 +7,15 @@ namespace Infrastructure.States
     {
         private readonly GameStateMachine _stateMachine;
         private readonly ISceneLoader _sceneLoader;
-        private readonly ICurtainFactory _curtainFactory;
 
-        public BootstrapState(GameStateMachine stateMachine, ISceneLoader sceneLoader, ICurtainFactory curtainFactory)
+        public BootstrapState(GameStateMachine stateMachine, ISceneLoader sceneLoader)
         {
             _stateMachine = stateMachine;
             _sceneLoader = sceneLoader;
-            _curtainFactory = curtainFactory;
         }
 
         public void Enter()
         {
-            _curtainFactory.Curtain.Show();
             _sceneLoader.LoadScene(Scenes.Boot, LoadedScene);
         }
 

@@ -4,12 +4,12 @@ using Infrastructure.States.Interfaces;
 
 namespace Infrastructure.States
 {
-    public class HomeScreenState : IPayloadedState<string>
+    public class GameplayState : IPayloadedState<string>
     {
         private readonly ISceneLoader _sceneLoader;
         private readonly ICurtainFactory _curtainFactory;
 
-        public HomeScreenState(ISceneLoader sceneLoader, ICurtainFactory curtainFactory)
+        public GameplayState(ISceneLoader sceneLoader, ICurtainFactory curtainFactory)
         {
             _sceneLoader = sceneLoader;
             _curtainFactory = curtainFactory;
@@ -23,6 +23,7 @@ namespace Infrastructure.States
 
         public void Exit()
         {
+            
         }
 
         private void LoadedScene()
