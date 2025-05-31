@@ -14,8 +14,8 @@ namespace Gameplay.Collects.Factory
         {
             _container = container;
             _staticData = staticData;
-        }
-
+        } 
+        
         public Collectible CreateCollectible(CollectibleType type, Vector3 at)
         {
             bool isGetValue = _staticData.Collectibles.TryGetValue(type, out CollectibleConfig config);
@@ -27,6 +27,8 @@ namespace Gameplay.Collects.Factory
                 collectible.Init();
                 
                 _container.InjectGameObject(collectible.gameObject);
+
+                return collectible;
             }
 
             return null;

@@ -10,17 +10,17 @@ namespace UI.Factory
         private const string UI_ROOT_PATH = "UI/UIRoot";
         private const string MAIN_MENU_PATH = "UI/MainMenu";
 
-        private readonly IAssetProvider _assetProvider;
         private readonly DiContainer _container;
+        private readonly IAssetProvider _assetProvider;
         private readonly IStaticDataService _staticDataService;
 
         private GameObject _uiRoot;
         private GameObject _mainMenu;
         
-        public UIFactory(IAssetProvider assetProvider, DiContainer container, IStaticDataService staticDataService)
+        public UIFactory(DiContainer container, IAssetProvider assetProvider, IStaticDataService staticDataService)
         {
-            _assetProvider = assetProvider;
             _container = container;
+            _assetProvider = assetProvider;
             _staticDataService = staticDataService;
         }
 

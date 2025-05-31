@@ -21,8 +21,9 @@ namespace Gameplay.Collects
             foreach (CollectibleSpawnData data in spawnData)
             {
                 Collectible collectible = _collectibleFactory.CreateCollectible(data.Type, data.Position);
-                collectible.OnCollected += Collect;
+                if (!collectible) continue;
                 
+                collectible.OnCollected += Collect;
                 _collectibles.Add(collectible);
             }
         }
