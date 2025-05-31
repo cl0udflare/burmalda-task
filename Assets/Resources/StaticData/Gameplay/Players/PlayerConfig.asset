@@ -15,8 +15,8 @@ MonoBehaviour:
   Prefab: {fileID: 5616956232867949003, guid: d37c5d106197a4a4ab806221297c38ed, type: 3}
   Stats:
     MovementSpeed: 5
-    StrafeSpeed: 3.5
-    JumpForce: 4
+    StrafeSpeed: 3.8
+    JumpForce: 2
     AccelerationCurve:
       serializedVersion: 2
       m_Curve:

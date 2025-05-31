@@ -1,4 +1,5 @@
-﻿using Gameplay.Player.Configs;
+﻿using System;
+using Gameplay.Player.Configs;
 using Gameplay.Services.Input;
 using Gameplay.Services.StaticData;
 using UnityEngine;
@@ -21,11 +22,10 @@ namespace Gameplay.Player
         private float _lineOffset;
         private float _accelerationTimer;
         private bool _canMove;
-
-        private void OnValidate()
-        {
-            _controller = GetComponent<CharacterController>();
-        }
+        
+        public event Action OnJump;
+        public event Action OnStrafeLeft;
+        public event Action OnStrafeRight;
 
         [Inject]
         private void Construct(IStaticDataService staticData, IInputService input) => 
@@ -42,7 +42,10 @@ namespace Gameplay.Player
             _controller.Move(_velocity * Time.deltaTime);
         }
 
-        public void Init(PlayerStats stats, float lineOffset)
+        public void Init(CharacterController characterController) => 
+            _controller = characterController;
+
+        public void SetData(PlayerStats stats, float lineOffset)
         {
             _stats = stats;
             _lineOffset = lineOffset;
@@ -57,8 +60,17 @@ namespace Gameplay.Player
         private void HandleLaneChange()
         {
             int direction = 0;
-            if (_input.Left) direction = -1;
-            if (_input.Right) direction = 1;
+            if (_input.Left)
+            {
+                direction = -1;
+                OnStrafeLeft?.Invoke();
+            }
+
+            if (_input.Right)
+            {
+                direction = 1;
+                OnStrafeRight?.Invoke();
+            }
 
             if (direction != 0) 
                 _currentLane = Mathf.Clamp(_currentLane + direction, -1, 1);
@@ -84,8 +96,11 @@ namespace Gameplay.Player
             if (isGrounded && _velocity.y <= 0) 
                 _velocity.y = STICK_TO_GROUND_FORCE;
 
-            if (isGrounded && _input.Jump) 
+            if (isGrounded && _input.Jump)
+            {
                 _velocity.y = Mathf.Sqrt(-2f * GRAVITY * _stats.JumpForce);
+                OnJump?.Invoke();
+            }
 
             _velocity.y += GRAVITY * Time.deltaTime;
         }
