@@ -2,9 +2,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UI.Logic.Buttons
+namespace UI.Buttons
 {
-    public abstract class ButtonBase : MonoBehaviour
+    public class ButtonBase : MonoBehaviour
     {
         [SerializeField] protected Button _button;
 

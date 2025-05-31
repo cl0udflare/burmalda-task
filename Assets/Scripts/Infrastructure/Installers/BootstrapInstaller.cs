@@ -1,6 +1,7 @@
 using Gameplay.Collects.Factory;
 using Gameplay.Curtain.Factory.Curtain;
 using Gameplay.Player.Factory;
+using Gameplay.Services.Economy;
 using Gameplay.Services.Input;
 using Gameplay.Services.StaticData;
 using Infrastructure.AssetManagement;
@@ -10,7 +11,6 @@ using Infrastructure.Services.Coroutines;
 using Infrastructure.States.Factory;
 using Infrastructure.Systems;
 using Logging;
-using Progress.Provider;
 using UI.Windows.Factory;
 using UI.Windows.Services;
 using Zenject;
@@ -22,7 +22,6 @@ namespace Infrastructure.Installers
         public override void InstallBindings()
         {
             BindInfrastructure();
-            BindProgress();
             BindUI();
             BindGameplay();
 
@@ -41,16 +40,12 @@ namespace Infrastructure.Installers
             Container.Bind<ICameraProvider>().To<CameraProvider>().AsSingle();
         }
 
-        private void BindProgress()
-        {
-            Container.Bind<IProgressProvider>().To<ProgressProvider>().AsSingle();
-        }
-
         private void BindGameplay()
         {
             // Services
             Container.Bind<IStaticDataService>().To<StaticDataService>().AsSingle();
             Container.Bind<IInputService>().To<KeyboardInputService>().AsSingle();
+            Container.Bind<IEconomyService>().To<EconomyService>().AsSingle();
             // Factories
             Container.Bind<ICurtainFactory>().To<CurtainFactory>().AsSingle();
             Container.Bind<IPlayerFactory>().To<PlayerFactory>().AsSingle();

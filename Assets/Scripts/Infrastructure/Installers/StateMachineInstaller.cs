@@ -10,7 +10,6 @@ namespace Infrastructure.Installers
         public override void InstallBindings()
         {
             Container.Bind<BootstrapState>().AsSingle().NonLazy();
-            Container.Bind<LoadProgressState>().AsSingle().NonLazy();
             Container.Bind<HomeScreenState>().AsSingle().NonLazy();
             Container.Bind<GameplayState>().AsSingle().NonLazy();
 

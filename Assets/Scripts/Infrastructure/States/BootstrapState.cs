@@ -28,7 +28,7 @@ namespace Infrastructure.States
         {
         }
         
-        private void LoadedScene() =>
-            _stateMachine.Enter<LoadProgressState>();
+        private void LoadedScene() => 
+            _stateMachine.Enter<HomeScreenState>();
     }
 }

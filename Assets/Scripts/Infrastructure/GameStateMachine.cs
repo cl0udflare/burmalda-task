@@ -23,7 +23,6 @@ namespace Infrastructure
             _states = new Dictionary<Type, IExitableState>
             {
                 [typeof(BootstrapState)] = _stateFactory.CreateState<BootstrapState>(),
-                [typeof(LoadProgressState)] = _stateFactory.CreateState<LoadProgressState>(),
                 [typeof(HomeScreenState)] = _stateFactory.CreateState<HomeScreenState>(),
                 [typeof(GameplayState)] = _stateFactory.CreateState<GameplayState>(),
             };
