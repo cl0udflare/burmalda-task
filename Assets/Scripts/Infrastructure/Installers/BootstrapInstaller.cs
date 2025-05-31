@@ -11,7 +11,7 @@ using Infrastructure.States.Factory;
 using Infrastructure.Systems;
 using Logging;
 using Progress.Provider;
-using UI.Factory;
+using UI.Windows.Factory;
 using UI.Windows.Services;
 using Zenject;
 
@@ -60,7 +60,7 @@ namespace Infrastructure.Installers
         private void BindUI()
         {
             // Factories
-            Container.Bind<IUIFactory>().To<UIFactory>().AsSingle();
+            Container.Bind<IWindowFactory>().To<WindowFactory>().AsSingle();
             // Services
             Container.Bind<IWindowService>().To<WindowService>().AsSingle();
         }

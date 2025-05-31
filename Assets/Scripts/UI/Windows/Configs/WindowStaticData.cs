@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace UI.Windows.Configs
@@ -7,5 +8,8 @@ namespace UI.Windows.Configs
     public class WindowStaticData : ScriptableObject
     {
         public List<WindowSetup> Windows;
+
+        public WindowSetup GetWindowByType(WindowType type) => 
+            Windows.FirstOrDefault(x => x.WindowType == type);
     }
 }

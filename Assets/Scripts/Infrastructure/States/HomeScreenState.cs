@@ -1,7 +1,6 @@
 ﻿using Gameplay.Curtain.Factory.Curtain;
 using Infrastructure.Loading;
 using Infrastructure.States.Interfaces;
-using UI.Factory;
 
 namespace Infrastructure.States
 {
@@ -9,13 +8,11 @@ namespace Infrastructure.States
     {
         private readonly ISceneLoader _sceneLoader;
         private readonly ICurtainFactory _curtainFactory;
-        private readonly IUIFactory _uiFactory;
 
-        public HomeScreenState(ISceneLoader sceneLoader, ICurtainFactory curtainFactory, IUIFactory uiFactory)
+        public HomeScreenState(ISceneLoader sceneLoader, ICurtainFactory curtainFactory)
         {
             _sceneLoader = sceneLoader;
             _curtainFactory = curtainFactory;
-            _uiFactory = uiFactory;
         }
         
         public void Enter()
@@ -30,15 +27,7 @@ namespace Infrastructure.States
 
         private void LoadedScene()
         {
-            CreateUI();
-            
             _curtainFactory.Curtain.Hide();
-        }
-
-        private void CreateUI()
-        {
-            _uiFactory.CreateUIRoot();
-            _uiFactory.CreateMainMenu();
         }
     }
 }

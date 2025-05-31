@@ -1,31 +1,27 @@
-﻿using UI.Factory;
+﻿using System.Collections.Generic;
+using UI.Windows.Factory;
 using UnityEngine;
 
 namespace UI.Windows.Services
 {
     public class WindowService : IWindowService
     {
-        private readonly IUIFactory _uiFactory;
+        private readonly IWindowFactory _windowFactory;
 
-        private WindowBase _currentWindow;
-        
-        public WindowService(IUIFactory uiFactory) => 
-            _uiFactory = uiFactory;
+        private readonly List<WindowBase> _openedWindows = new();
 
-        public void Open(WindowType windowType)
+        public WindowService(IWindowFactory windowFactory) =>
+            _windowFactory = windowFactory;
+
+        public void Open(WindowType windowId) => 
+            _openedWindows.Add(_windowFactory.CreateWindow(windowId));
+
+        public void Close(WindowType windowId)
         {
-            DestroyCurrentWindow();
-            
-            switch (windowType)
-            {
-             
-            }
-        }
-
-        private void DestroyCurrentWindow()
-        {
-            if (_currentWindow)
-                Object.Destroy(_currentWindow.gameObject);
+            WindowBase window = _openedWindows.Find(x => x.Id == windowId);
+            _openedWindows.Remove(window);
+      
+            Object.Destroy(window.gameObject);
         }
     }
 }
