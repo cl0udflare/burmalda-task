@@ -5,6 +5,7 @@ using Gameplay.Services.Input;
 using Gameplay.Services.StaticData;
 using Infrastructure.AssetManagement;
 using Infrastructure.Loading;
+using Infrastructure.Services.Cameras;
 using Infrastructure.Services.Coroutines;
 using Infrastructure.States.Factory;
 using Infrastructure.Systems;
@@ -37,6 +38,7 @@ namespace Infrastructure.Installers
             Container.Bind<ICoroutineRunner>().To<CoroutineRunner>().FromComponentInHierarchy().AsSingle();
             Container.Bind<IAssetProvider>().To<AssetProvider>().AsSingle();
             Container.Bind<ISceneLoader>().To<SceneLoader>().AsSingle();
+            Container.Bind<ICameraProvider>().To<CameraProvider>().AsSingle();
         }
 
         private void BindProgress()

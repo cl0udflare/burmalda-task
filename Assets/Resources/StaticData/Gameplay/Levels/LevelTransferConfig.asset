@@ -12,16 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adfae2c508d14bb084334752f0645147, type: 3}
   m_Name: LevelTransferConfig
   m_EditorClassIdentifier: 
-  LevelName: 1
+  LevelName: Level_1
   PlayerSpawn:
     Position: {x: 0, y: 0, z: 0}
   Collectibles:
-  - Id: Gameplay_7ead58be-dd3d-427e-8d53-1caef1096e06
-    Type: 1
+  - Type: 1
     Position: {x: 0, y: 0, z: 31.56}
-  - Id: Gameplay_c1142268-3fc6-4b6d-88c6-182b48f02d99
-    Type: 1
+  - Type: 1
     Position: {x: 0, y: 0, z: 22.28}
-  - Id: Gameplay_93c65a6b-8826-4bfd-9bc8-bc5edbc599d3
-    Type: 1
+  - Type: 1
     Position: {x: 0, y: 0, z: 46.8}

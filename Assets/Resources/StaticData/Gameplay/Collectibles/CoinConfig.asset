@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8341e8cb5f448cba6e3d65505a6430, type: 3}
   m_Name: CoinConfig
   m_EditorClassIdentifier: 
-  Type: 0
-  Prefab: {fileID: 0}
+  Type: 1
+  Prefab: {fileID: 3512478343488153645, guid: 68c058840d3f5a84c9909b103898883f, type: 3}
   Value: 1
