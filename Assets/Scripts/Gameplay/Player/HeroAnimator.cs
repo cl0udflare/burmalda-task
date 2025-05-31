@@ -6,8 +6,9 @@ namespace Gameplay.Player
     {
         private static readonly int Die = Animator.StringToHash("Die");
         private static readonly int Speed = Animator.StringToHash("Speed");
-        private static readonly int IsMoving = Animator.StringToHash("IsMoving");
         private static readonly int Jump = Animator.StringToHash("Jump");
+        private static readonly int StrafeLeft = Animator.StringToHash("StrafeLeft");
+        private static readonly int StrafeRight = Animator.StringToHash("StrafeRight");
 
         [SerializeField] private Animator _animator;
         
@@ -27,23 +28,16 @@ namespace Gameplay.Player
        
         public void PlayDeath() => _animator.SetTrigger(Die);
         
-        public void StopMoving() => _animator.SetBool(IsMoving, false);
+        public void PlayStrafeLeft() => _animator.SetTrigger(StrafeLeft);
+        
+        public void PlayStrafeRight() => _animator.SetTrigger(StrafeRight);
 
         private void Move()
         {
             if (!_controller) return;
             
             float speed = _controller.velocity.magnitude;
-            
-            if (speed > 0)
-            {
-                _animator.SetBool(IsMoving, true);
-                _animator.SetFloat(Speed, speed, 0.1f, Time.deltaTime);
-            }
-            else
-            {
-                _animator.SetBool(IsMoving, false);  
-            }
+            _animator.SetFloat(Speed, speed, 0.1f, Time.deltaTime);
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using Logging;
-using Unity.Cinemachine;
+﻿using Unity.Cinemachine;
 using UnityEngine;
 
 namespace Infrastructure.Services.Cameras
@@ -12,10 +11,7 @@ namespace Infrastructure.Services.Cameras
         public void SetMainCamera(Camera camera) => 
             MainCamera = camera;
 
-        public void SetCinemachineCamera(CinemachineCamera cinemachine)
-        {
+        public void SetCinemachineCamera(CinemachineCamera cinemachine) => 
             Cinemachine = cinemachine;
-            DebugLogger.LogMessage($"Cinemachine: {Cinemachine}", this);
-        }
     }
 }

@@ -1,0 +1,1142 @@
+fileFormatVersion: 2
+guid: 41d84f8f3f6cafb4db22ad7965550bf8
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LAMPADAIRES_LOVELY_BUNDLE_LAMPADAIRE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LAMPADAIRES_LOVELY_BUNDLE_LAMPADAIRE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LAMPADAIRES_LOVELY_BUNDLE_LAMPADAIRE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LAMPADAIRES_LOVELY_BUNDLE_LAMPADAIRE_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LAMPADAIRE_003_LAMPADAIRES_LOVELY_BUNDLEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BANCS_BANC_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BANCS_BANC_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BANC_003_BANCSMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BARRIERES_BARRIERE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BARRIERES_BARRIERE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BARRIERES_BARRIERE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BARRIERE_003_BARRIERESMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BLOCS_UNIS_BLOC_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BLOCS_UNIS_BLOC_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BLOC_003_BLOCS_UNISMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BOITES_BOITE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_BOITE_002_BOITESMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_CAMIONMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_CAMION_AVANTMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_FONDMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PAR_ROUE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PAR_ROUE_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PAR_ROUE_009Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PAR_ROUE_010Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PAR_ROUE_011Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PAR_ROUE_012Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PHARE_BACK_DROITMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PHARE_BACK_DROIT_02Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PHARE_BACK_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PHARE_BACK_GAUCHE_02Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PHARE_FRONT_DROITMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PHARE_FRONT_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_PLAQUE_BACKMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_POIGNEE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_POIGNEE_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_RETRO_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_RETRO_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_ROUE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_ROUE_013Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_ROUE_014Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_ROUE_015Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_ROUE_016Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_001_ROUE_017Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_CAMIONMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_CAMION_AVANTMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_FONDMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PAR_ROUE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PAR_ROUE_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PAR_ROUE_009Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PAR_ROUE_010Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PAR_ROUE_011Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PAR_ROUE_012Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PHARE_BACK_DROIT_02Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PHARE_BACK_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PHARE_BACK_GAUCHE_02Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PHARE_FRONT_DROITMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PHARE_FRONT_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PLAQUE_BACKMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_PLAQUE_FRONTMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_POIGNEE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_POIGNEE_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_RETRO_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_RETRO_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_ROUE_018Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_ROUE_019Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_ROUE_020Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_ROUE_021Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_ROUE_022Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CAMION_002_ROUE_023Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_COINS_COIN_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_COINS_COIN_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_COIN_003_COINSMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CONTOUR_003_LIGNES_CONTOURMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CUBE_002_RANGEE_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CUBE_003_RANGEE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CUBE_007_RANGEE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_CUBE_007_RANGEE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_DOSDANE_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_DOSDANE_MIDMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_DROIT_DOSDANEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_GRANDE_LIGNE_002_LIGNES_COTESMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_004_LIGNES_MIDMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_CONTOUR_CONTOUR_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_CONTOUR_CONTOUR_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_COTES_GRANDE_LIGNE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_COTES_GRANDE_LIGNE_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_COTES_GRANDE_LIGNE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_MID_LIGNES_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_MID_LIGNES_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_MID_LIGNES_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_MID_LIGNES_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_MID_LIGNES_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_PARKING_LIGNE_PARK_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_PARKING_LIGNE_PARK_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_PARKING_LIGNE_PARK_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_PARKING_LIGNE_PARK_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_PARKING_LIGNE_PARK_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_PARKING_LIGNE_PARK_007Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_POUSSETTE_BODYMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_POUSSETTE_HEADMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNES_POUSSETTE_ROND_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_LIGNE_PARK_003_LIGNES_PARKINGMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PHARE_BACK_DROIT_CAMION_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_009Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_011Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_012Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_014Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_015Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_016Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_017Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_018Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_021Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_022Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTES_PLANTE_023Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLANTE_007_PLANTESMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLAQUE_FRONT_CAMION_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLOTS_PLOT_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLOTS_PLOT_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLOTS_PLOT_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLOTS_PLOT_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLOTS_PLOT_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_PLOT_001_PLOTSMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAUX_001_POTEAU_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAUX_001_POTEAU_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAUX_002_POTEAU_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAUX_002_POTEAU_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAUX_002_POTEAU_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAUX_002_POTEAU_007Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAUX_002_POTEAU_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAU_002_POTEAUX_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_POTEAU_004_POTEAUX_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_001_CUBE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_001_CUBE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_001_CUBE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_001_CUBE_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_001_CUBE_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_001_CUBE_007Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_001_CUBE_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_002_CUBE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_002_CUBE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_002_CUBE_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_002_CUBE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_002_CUBE_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_002_CUBE_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_002_CUBE_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_003_CUBE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_003_CUBE_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_003_CUBE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_003_CUBE_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_003_CUBE_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_003_CUBE_007Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_003_CUBE_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_004_CUBE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_004_CUBE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_004_CUBE_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_004_CUBE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_004_CUBE_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_004_CUBE_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RANGEE_004_CUBE_008Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_RETRO_001_VOITURE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_ROAD_001_ROADMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_ROAD_ROAD_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_ROND_002_LIGNES_POUSSETTEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_ROUE_024_VOITURE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_BODYMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_FOND_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PAR_ROUE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PAR_ROUE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PAR_ROUE_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PAR_ROUE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PHARE_BACK_DROITMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PHARE_BACK_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PHARE_FRONT_GAUCHE1Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PHARE_FRONT_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PLAQUE_BACKMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_PLAQUE_FRONTMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_POIGNEE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_POIGNEE_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_POIGNEE_003Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_POIGNEE_004Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_RETRO_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_RETRO_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_ROUE_028Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_ROUE_029Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_001_ROUE_030Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_BODYMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_FOND_01Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PAR_ROUE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PAR_ROUE_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PAR_ROUE_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PAR_ROUE_007Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PHARE_BACK_DROITMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PHARE_BACK_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PHARE_FRONT_DROITMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PHARE_FRONT_GAUCHEMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PLAQUE_BACKMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_PLAQUE_FRONTMat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_POIGNEE_001Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_POIGNEE_005Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_POIGNEE_006Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_POIGNEE_007Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_RETRO_002Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_ROUE_031Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_ROUE_032Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_ROUE_033Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOVELY_BUNDLE_VOITURE_002_ROUE_034Mat
+    second: {fileID: 2100000, guid: aa257bf990a333d40873bf3bd724cc77, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

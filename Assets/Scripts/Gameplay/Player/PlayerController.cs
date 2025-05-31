@@ -38,6 +38,8 @@ namespace Gameplay.Player
             _cameraProvider.Cinemachine.Follow = transform;
             
             _movement.OnJump += _animator.PlayJump;
+            _movement.OnStrafeLeft += _animator.PlayStrafeLeft;
+            _movement.OnStrafeRight += _animator.PlayStrafeRight;
         }
 
         public void SetConfig(PlayerConfig config)
@@ -52,6 +54,8 @@ namespace Gameplay.Player
         private void Cleanup()
         {
             _movement.OnJump -= _animator.PlayJump;
+            _movement.OnStrafeLeft -= _animator.PlayStrafeLeft;
+            _movement.OnStrafeRight -= _animator.PlayStrafeRight;
         }
 
         private void OnDestroy()
