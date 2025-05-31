@@ -1,6 +1,6 @@
 ﻿using Gameplay.Player.Configs;
+using Infrastructure.Services.Cameras;
 using Infrastructure.States;
-using Infrastructure.States.GameStates;
 using UnityEngine;
 using Zenject;
 
@@ -14,6 +14,7 @@ namespace Gameplay.Player
         [SerializeField] private HeroAnimator _animator;
         
         private GameStateMachine _stateMachine;
+        private ICameraProvider _cameraProvider;
 
         private void OnValidate()
         {
@@ -23,13 +24,18 @@ namespace Gameplay.Player
         }
 
         [Inject]
-        private void Construct(GameStateMachine stateMachine) => 
+        private void Construct(GameStateMachine stateMachine, ICameraProvider cameraProvider)
+        {
             _stateMachine = stateMachine;
+            _cameraProvider = cameraProvider;
+        }
 
         private void Start()
         {
             _movement.Init(_characterController);
             _animator.Init(_characterController);
+            
+            _cameraProvider.Cinemachine.Follow = transform;
             
             _movement.OnJump += _animator.PlayJump;
         }
@@ -51,8 +57,6 @@ namespace Gameplay.Player
         private void OnDestroy()
         {
             Cleanup();
-            
-            _stateMachine.Enter<GameOverState>();
         }
     }
 }
