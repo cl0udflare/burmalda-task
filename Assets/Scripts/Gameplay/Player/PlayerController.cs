@@ -15,7 +15,7 @@ namespace Gameplay.Player
 
         public void SetConfig(PlayerConfig config)
         {
-            _movement.Initialize(config.Stats, config.LaneOffset);
+            _movement.Init(config.Stats, config.LaneOffset);
         }
 
         public void Run() => _movement.StartMove();

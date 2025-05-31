@@ -1,13 +1,15 @@
-using Gameplay.Factories.Curtain;
+using Gameplay.Collects.Factory;
+using Gameplay.Curtain.Factory.Curtain;
 using Gameplay.Player.Factory;
 using Gameplay.Services.Input;
 using Gameplay.Services.StaticData;
-using Infrastructure.Factories.State;
-using Infrastructure.Services.AssetManagement;
-using Infrastructure.Services.CoroutineRunner;
-using Infrastructure.Services.Loading;
+using Infrastructure.AssetManagement;
+using Infrastructure.Loading;
+using Infrastructure.Services.Coroutines;
+using Infrastructure.States.Factory;
+using Infrastructure.Systems;
 using Logging;
-using UI.Factories;
+using UI.Factory;
 using Zenject;
 
 namespace Infrastructure.Installers
@@ -31,6 +33,7 @@ namespace Infrastructure.Installers
         private void BindInfrastructureFactories()
         {
             Container.Bind<StateFactory>().AsSingle();
+            Container.Bind<ISystemFactory>().To<SystemFactory>().AsSingle();
         }
 
         private void BindInfrastructureServices()
@@ -54,6 +57,7 @@ namespace Infrastructure.Installers
         {
             Container.Bind<ICurtainFactory>().To<CurtainFactory>().AsSingle();
             Container.Bind<IPlayerFactory>().To<PlayerFactory>().AsSingle();
+            Container.Bind<ICollectibleFactory>().To<CollectibleFactory>().AsSingle();
         }
 
         private void BindGameplayServices()

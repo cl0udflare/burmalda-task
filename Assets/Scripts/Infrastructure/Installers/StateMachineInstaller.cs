@@ -13,7 +13,7 @@ namespace Infrastructure.Installers
             Container.Bind<HomeScreenState>().AsSingle().NonLazy();
             Container.Bind<GameplayState>().AsSingle().NonLazy();
 
-            Container.BindInterfacesAndSelfTo<GameStateMachine>().AsSingle(); // ENTRY POINT
+            Container.BindInterfacesAndSelfTo<GameStateMachine>().AsSingle(); //TODO: Entry point
            
             DebugLogger.LogMessage("Install", this);
         }

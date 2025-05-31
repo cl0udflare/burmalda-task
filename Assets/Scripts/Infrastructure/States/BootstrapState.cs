@@ -1,5 +1,5 @@
 ﻿using Gameplay.Services.StaticData;
-using Infrastructure.Services.Loading;
+using Infrastructure.Loading;
 using Infrastructure.States.Interfaces;
 
 namespace Infrastructure.States

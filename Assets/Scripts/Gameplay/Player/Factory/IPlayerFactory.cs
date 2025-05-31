@@ -1,7 +1,9 @@
-﻿namespace Gameplay.Player.Factory
+﻿using UnityEngine;
+
+namespace Gameplay.Player.Factory
 {
     public interface IPlayerFactory
     {
-        PlayerController CreatePlayer();
+        PlayerController CreatePlayer(Vector3 at);
     }
 }

@@ -42,7 +42,7 @@ namespace Gameplay.Player
             _controller.Move(_velocity * Time.deltaTime);
         }
 
-        public void Initialize(PlayerStats stats, float lineOffset)
+        public void Init(PlayerStats stats, float lineOffset)
         {
             _stats = stats;
             _lineOffset = lineOffset;

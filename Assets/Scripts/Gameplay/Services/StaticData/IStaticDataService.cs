@@ -1,5 +1,9 @@
+using System.Collections.Generic;
+using Gameplay.Collects;
+using Gameplay.Collects.Configs;
+using Gameplay.Levels;
 using Gameplay.Player.Configs;
-using UI.Configs;
+using UI.Windows.Configs;
 
 namespace Gameplay.Services.StaticData
 {
@@ -7,6 +11,8 @@ namespace Gameplay.Services.StaticData
     {
         WindowStaticData WindowData { get; }
         PlayerConfig PlayerConfig { get; }
+        Dictionary<CollectibleType, CollectibleConfig> Collectibles { get; }
+        Dictionary<string, LevelTransferConfig> Levels { get; }
         void LoadAll();
     }
 }
