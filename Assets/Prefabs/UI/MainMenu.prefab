@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 8815371110109752669}
+  _stateType: 1
 --- !u!1 &5706107466918542647
 GameObject:
   m_ObjectHideFlags: 0

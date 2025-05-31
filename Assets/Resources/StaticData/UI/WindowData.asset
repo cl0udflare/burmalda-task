@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2735f700d5c4c61a2d16449045ac8a3, type: 3}
   m_Name: WindowData
   m_EditorClassIdentifier: 
-  Windows: []
+  Windows:
+  - WindowType: 1
+    Prefab: {fileID: 5006657680508062251, guid: 0032baa48474aac43b7a59945c71d5d1, type: 3}

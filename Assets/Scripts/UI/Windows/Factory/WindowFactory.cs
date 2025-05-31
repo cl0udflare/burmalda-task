@@ -6,15 +6,15 @@ namespace UI.Windows.Factory
 {
     public class WindowFactory : IWindowFactory
     {
+        private readonly DiContainer _container;
         private readonly IStaticDataService _staticData;
-        private readonly IInstantiator _instantiator;
-        
+
         private RectTransform _uiRoot;
 
-        public WindowFactory(IStaticDataService staticData, IInstantiator instantiator)
+        public WindowFactory(DiContainer container, IStaticDataService staticData)
         {
+            _container = container;
             _staticData = staticData;
-            _instantiator = instantiator;
         }
 
         public void SetUIRoot(RectTransform uiRoot) =>
@@ -22,8 +22,10 @@ namespace UI.Windows.Factory
 
         public WindowBase CreateWindow(WindowType type)
         {
-            WindowBase window = _instantiator.InstantiatePrefabForComponent<WindowBase>(PrefabFor(type), _uiRoot);
+            WindowBase window = Object.Instantiate(PrefabFor(type), _uiRoot);
             window.SetId(type);
+            
+            _container.InjectGameObject(window.gameObject);
             
             return window;
         }

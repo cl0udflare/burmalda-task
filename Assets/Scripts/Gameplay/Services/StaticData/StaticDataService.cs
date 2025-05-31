@@ -14,7 +14,7 @@ namespace Gameplay.Services.StaticData
     public class StaticDataService : IStaticDataService
     {
         private const string WINDOWS_PATH = "StaticData/UI/WindowData";
-        private const string PLAYER_PATH = "StaticData/Gameplay/PlayerConfig";
+        private const string PLAYER_PATH = "StaticData/Gameplay/Players/PlayerConfig";
         private const string COLLECTIBLES_PATH = "StaticData/Gameplay/Collectibles";
         private const string LEVELS_PATH = "StaticData/Gameplay/Levels";
         

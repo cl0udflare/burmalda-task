@@ -1,4 +1,4 @@
-﻿using Gameplay.Services.Economy;
+﻿using Progress.Services.Economy;
 using TMPro;
 using UnityEngine;
 using Zenject;

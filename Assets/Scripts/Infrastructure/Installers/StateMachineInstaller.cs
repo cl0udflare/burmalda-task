@@ -1,4 +1,5 @@
 using Infrastructure.States;
+using Infrastructure.States.GameStates;
 using Logging;
 using UnityEngine;
 using Zenject;
@@ -12,6 +13,7 @@ namespace Infrastructure.Installers
             Container.Bind<BootstrapState>().AsSingle().NonLazy();
             Container.Bind<HomeScreenState>().AsSingle().NonLazy();
             Container.Bind<GameplayState>().AsSingle().NonLazy();
+            Container.Bind<GameOverState>().AsSingle().NonLazy();
 
             Container.BindInterfacesAndSelfTo<GameStateMachine>().AsSingle(); //TODO: Entry point
            

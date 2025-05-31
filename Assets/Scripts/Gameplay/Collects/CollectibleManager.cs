@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Extentions;
 using Gameplay.Collects.Factory;
 using Gameplay.Levels;
-using Gameplay.Services.Economy;
+using Progress.Services.Economy;
 
 namespace Gameplay.Collects
 {
