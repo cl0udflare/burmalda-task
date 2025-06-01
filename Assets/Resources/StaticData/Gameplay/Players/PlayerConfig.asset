@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prefab: {fileID: 5616956232867949003, guid: d37c5d106197a4a4ab806221297c38ed, type: 3}
   Stats:
-    MovementSpeed: 5
+    MovementSpeed: 7
     StrafeSpeed: 3.8
     JumpForce: 2
     AccelerationCurve:
@@ -41,5 +41,5 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    AccelerationTime: 2
-  LaneOffset: 3
+    AccelerationTime: 1.5
+  LaneOffset: 4

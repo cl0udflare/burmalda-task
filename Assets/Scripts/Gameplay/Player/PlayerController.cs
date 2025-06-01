@@ -1,12 +1,13 @@
 ﻿using Gameplay.Player.Configs;
 using Infrastructure.Services.Cameras;
 using Infrastructure.States;
+using Infrastructure.States.GameStates;
 using UnityEngine;
 using Zenject;
 
 namespace Gameplay.Player
 {
-    [RequireComponent(typeof(CharacterController), typeof(PlayerMovement), typeof(HeroAnimator))]
+    [RequireComponent(typeof(CharacterController), typeof(PlayerMovement))]
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] private CharacterController _characterController;
@@ -20,7 +21,7 @@ namespace Gameplay.Player
         {
             _characterController = GetComponent<CharacterController>();
             _movement = GetComponent<PlayerMovement>();
-            _animator = GetComponent<HeroAnimator>();
+            _animator = GetComponentInChildren<HeroAnimator>();
         }
 
         [Inject]
@@ -61,6 +62,8 @@ namespace Gameplay.Player
         private void OnDestroy()
         {
             Cleanup();
+            
+            _stateMachine.Enter<GameOverState>();
         }
     }
 }

@@ -17,8 +17,32 @@ MonoBehaviour:
     Position: {x: 0, y: 0, z: 0}
   Collectibles:
   - Type: 1
-    Position: {x: 0, y: 0, z: 31.56}
+    Position: {x: -4.71, y: 0, z: 9.77}
   - Type: 1
-    Position: {x: 0, y: 0, z: 22.28}
+    Position: {x: -4.71, y: 0, z: 17.77}
   - Type: 1
-    Position: {x: 0, y: 0, z: 46.8}
+    Position: {x: 4.71, y: 0, z: 144.55}
+  - Type: 1
+    Position: {x: -4.71, y: 0, z: 83.05}
+  - Type: 1
+    Position: {x: -4.71, y: 0, z: 87.05}
+  - Type: 1
+    Position: {x: 4.71, y: 0, z: 140.55}
+  - Type: 1
+    Position: {x: 4.71, y: 0, z: 132.55}
+  - Type: 1
+    Position: {x: -4.71, y: 0, z: 25.77}
+  - Type: 1
+    Position: {x: -4.71, y: 0, z: 95.05}
+  - Type: 1
+    Position: {x: 4.71, y: 0, z: 148.55}
+  - Type: 1
+    Position: {x: -4.71, y: 0, z: 99.05}
+  - Type: 1
+    Position: {x: 4.71, y: 0, z: 136.55}
+  - Type: 1
+    Position: {x: -4.71, y: 0, z: 13.77}
+  - Type: 1
+    Position: {x: -4.71, y: 0, z: 91.05}
+  - Type: 1
+    Position: {x: -4.71, y: 0, z: 21.77}

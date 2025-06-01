@@ -20,6 +20,7 @@ namespace Infrastructure.States.GameStates
 
         public void Exit()
         {
+            _windowService.Close(WindowType.GameOver);
         }
     }
 }

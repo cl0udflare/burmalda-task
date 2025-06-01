@@ -22,7 +22,7 @@ namespace UI.Windows.Factory
 
         public WindowBase CreateWindow(WindowType type)
         {
-            WindowBase window = Object.Instantiate(PrefabFor(type), _uiRoot);
+            WindowBase window = Object.Instantiate(PrefabFor(type));
             window.SetId(type);
             
             _container.InjectGameObject(window.gameObject);

@@ -20,6 +20,9 @@ namespace Infrastructure.States.GameStates
         private readonly IPlayerFactory _playerFactory;
         private readonly IStaticDataService _staticData;
         private readonly ISystemFactory _systemFactory;
+        
+        private CollectibleManager _collectibleManager;
+        private PlayerController _player;
 
         public GameplayState(
             ISceneLoader sceneLoader, 
@@ -43,7 +46,9 @@ namespace Infrastructure.States.GameStates
 
         public void Exit()
         {
+            _player.Stop();
             
+            _collectibleManager.Cleanup();
         }
 
         private void LoadedScene()
@@ -62,14 +67,14 @@ namespace Infrastructure.States.GameStates
 
         private void CreateCollectables(List<CollectibleSpawnData> spawnData)
         {
-            CollectibleManager manager = _systemFactory.Create<CollectibleManager>();
-            manager.Init(spawnData);
+            _collectibleManager ??= _systemFactory.Create<CollectibleManager>();
+            _collectibleManager.Init(spawnData);
         }
 
         private void CreatePlayer(Vector3 spawnPosition)
         {
-            PlayerController player = _playerFactory.CreatePlayer(spawnPosition);
-            player.Run();
+            _player = _playerFactory.CreatePlayer(spawnPosition);
+            _player.Run();
         }
     }
 }

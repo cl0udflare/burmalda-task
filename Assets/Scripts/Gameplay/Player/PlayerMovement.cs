@@ -47,7 +47,6 @@ namespace Gameplay.Player
 
         public void SetData(PlayerStats stats, float lineOffset)
         {
-            stats.MovementSpeed = 0;
             _stats = stats;
             _lineOffset = lineOffset;
         }
@@ -99,7 +98,7 @@ namespace Gameplay.Player
 
             if (isGrounded && _input.Jump)
             {
-                // _velocity.y = Mathf.Sqrt(-2f * GRAVITY * _stats.JumpForce);
+                _velocity.y = Mathf.Sqrt(-2f * GRAVITY * _stats.JumpForce);
                 OnJump?.Invoke();
             }
 

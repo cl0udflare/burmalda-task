@@ -9,6 +9,8 @@ namespace Gameplay.Collects.Factory
     {
         private readonly DiContainer _container;
         private readonly IStaticDataService _staticData;
+        
+        private GameObject _root;
 
         public CollectibleFactory(DiContainer container, IStaticDataService staticData)
         {
@@ -22,7 +24,9 @@ namespace Gameplay.Collects.Factory
 
             if (isGetValue)
             {
-                Collectible collectible = Object.Instantiate(config.Prefab, at, Quaternion.identity);
+                CreateRoot();
+                
+                Collectible collectible = Object.Instantiate(config.Prefab, at, Quaternion.identity, _root.transform);
                 collectible.SetData(config.Type, config.Value);
                 collectible.Init();
                 
@@ -32,6 +36,12 @@ namespace Gameplay.Collects.Factory
             }
 
             return null;
+        }
+
+        private void CreateRoot()
+        {
+            if (!_root)
+                _root = new GameObject("CollectibleRoot");
         }
     }
 }

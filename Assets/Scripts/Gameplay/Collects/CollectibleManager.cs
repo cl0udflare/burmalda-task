@@ -56,14 +56,8 @@ namespace Gameplay.Collects
             }
         }
 
-        private void CollectCoin(int value)
-        {
-            bool a = _economyService.IncreaseCurrency(value);
-            if (a == false)
-            {
-                
-            }
-        }
+        private void CollectCoin(int value) => 
+            _economyService.IncreaseCurrency(value);
 
         private void CleanupCollectible(Collectible collectible)
         {
