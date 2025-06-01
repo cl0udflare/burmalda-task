@@ -16,7 +16,7 @@ MonoBehaviour:
   Stats:
     MovementSpeed: 16
     StrafeSpeed: 3.8
-    JumpForce: 2
+    JumpForce: 1.5
     AccelerationCurve:
       serializedVersion: 2
       m_Curve:
