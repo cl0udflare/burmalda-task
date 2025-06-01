@@ -31,10 +31,8 @@ namespace Gameplay.Collects
             _value = value;
         }
 
-        public void Init()
-        {
+        public void Init() => 
             _triggerObserver.TriggerEnter += TriggerEnter;
-        }
 
         public void DestroyCollectible()
         {

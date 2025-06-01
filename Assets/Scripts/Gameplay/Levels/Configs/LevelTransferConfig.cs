@@ -9,17 +9,17 @@ namespace Gameplay.Levels.Configs
     public class LevelTransferConfig : ScriptableObject
     {
         public string LevelName;
-        [Space]
+        [Space] 
         public PlayerSpawnData PlayerSpawn;
         public List<CollectibleSpawnData> Collectibles = new();
     }
-    
+
     [Serializable]
     public class PlayerSpawnData
     {
         public Vector3 Position;
     }
-    
+
     [Serializable]
     public class CollectibleSpawnData
     {

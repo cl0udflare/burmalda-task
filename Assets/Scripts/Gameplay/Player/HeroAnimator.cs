@@ -11,11 +11,14 @@ namespace Gameplay.Player
         private static readonly int Jump = Animator.StringToHash("Jump");
         private static readonly int StrafeLeft = Animator.StringToHash("Left");
         private static readonly int StrafeRight = Animator.StringToHash("Right");
+        private static readonly int IsDeath = Animator.StringToHash("IdDeath");
+        private static readonly int Die = Animator.StringToHash("Death");
         
         private readonly int _movementStateHash = Animator.StringToHash("Movement");
         private readonly int _runningRightStateHash = Animator.StringToHash("RunningRight");
         private readonly int _runningLeftStateHash = Animator.StringToHash("RunningLeft");
         private readonly int _jumpStateHash = Animator.StringToHash("Jump");
+        private readonly int _dieStateHash = Animator.StringToHash("Death");
 
         [SerializeField] private Animator _animator;
         [SerializeField] private CharacterController _controller;
@@ -33,7 +36,13 @@ namespace Gameplay.Player
 
         public void PlayJump() => 
             _animator.SetTrigger(Jump);
-        
+
+        public void PlayDeath()
+        {
+            _animator.SetBool(IsDeath, true);
+            _animator.SetTrigger(Die);
+        }
+
         public void PlayStrafeLeft()
         {
             if (State == AnimatorState.Jump) 
@@ -79,6 +88,8 @@ namespace Gameplay.Player
                 state = AnimatorState.MoveRight;
             else if (stateHash == _jumpStateHash)
                 state = AnimatorState.Jump;
+            else if (stateHash == _dieStateHash)
+                state = AnimatorState.Die;
             else
                 state = AnimatorState.Unknown;
 

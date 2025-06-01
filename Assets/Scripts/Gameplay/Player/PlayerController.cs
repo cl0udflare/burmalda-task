@@ -1,4 +1,5 @@
-﻿using Gameplay.Player.Configs;
+﻿using System.Collections;
+using Gameplay.Player.Configs;
 using Gameplay.Player.Movement;
 using Gameplay.Services.Cameras;
 using Infrastructure.States;
@@ -48,8 +49,15 @@ namespace Gameplay.Player
         public void Kill()
         {
             Stop();
+            print("DEATH");
+            _animator.PlayDeath();
+            StartCoroutine(ProcessingDeath(1));
+        }
+
+        private IEnumerator ProcessingDeath(float waitForSec)
+        {
+            yield return new WaitForSeconds(waitForSec);
             _stateMachine.Enter<GameOverState>();
-            Destroy(gameObject);
         }
         
         private void SetupCamera() => 

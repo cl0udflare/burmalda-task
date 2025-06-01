@@ -1,9 +1,6 @@
 ﻿using System.Collections.Generic;
-using Gameplay.Collects;
-using Gameplay.Levels;
 using Gameplay.Levels.Configs;
 using Gameplay.Levels.Markers;
-using Gameplay.Player;
 using UnityEditor;
 using UnityEngine;
 

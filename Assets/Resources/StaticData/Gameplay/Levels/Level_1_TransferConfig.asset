@@ -17,32 +17,32 @@ MonoBehaviour:
     Position: {x: 0, y: 0, z: 0}
   Collectibles:
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 9.77}
+    Position: {x: -4.4799995, y: 0, z: 81.72}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 17.77}
+    Position: {x: 4.3999996, y: 0, z: 150.67}
   - Type: 1
-    Position: {x: 4.71, y: 0, z: 144.55}
+    Position: {x: -4.04, y: 0, z: 92.42}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 83.05}
+    Position: {x: 4.25, y: 0, z: 144.65}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 87.05}
+    Position: {x: 3.8100004, y: 0, z: 133.95}
   - Type: 1
-    Position: {x: 4.71, y: 0, z: 140.55}
+    Position: {x: -4.04, y: 0, z: 18.75}
   - Type: 1
-    Position: {x: 4.71, y: 0, z: 132.55}
+    Position: {x: 3.9099998, y: 0, z: 136.69}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 25.77}
+    Position: {x: -3.8900003, y: 0, z: 98.44}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 95.05}
+    Position: {x: -3.8900003, y: 0, z: 24.77}
   - Type: 1
-    Position: {x: 4.71, y: 0, z: 148.55}
+    Position: {x: -4.17, y: 0, z: 13.93}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 99.05}
+    Position: {x: 4.12, y: 0, z: 139.83}
   - Type: 1
-    Position: {x: 4.71, y: 0, z: 136.55}
+    Position: {x: -4.4799995, y: 0, z: 8.05}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 13.77}
+    Position: {x: -4.38, y: 0, z: 84.46}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 91.05}
+    Position: {x: -4.38, y: 0, z: 10.79}
   - Type: 1
-    Position: {x: -4.71, y: 0, z: 21.77}
+    Position: {x: -4.17, y: 0, z: 87.6}

@@ -47,7 +47,6 @@ namespace Infrastructure.States.GameStates
         public void Exit()
         {
             _player.Stop();
-            
             _collectibleManager.Cleanup();
         }
 
@@ -67,7 +66,7 @@ namespace Infrastructure.States.GameStates
 
         private void CreateCollectables(List<CollectibleSpawnData> spawnData)
         {
-            _collectibleManager ??= _systemFactory.Create<CollectibleManager>();
+            _collectibleManager = _systemFactory.Create<CollectibleManager>();
             _collectibleManager.Init(spawnData);
         }
 

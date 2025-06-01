@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prefab: {fileID: 5616956232867949003, guid: d37c5d106197a4a4ab806221297c38ed, type: 3}
   Stats:
-    MovementSpeed: 7
+    MovementSpeed: 16
     StrafeSpeed: 3.8
     JumpForce: 2
     AccelerationCurve:
@@ -24,22 +24,31 @@ MonoBehaviour:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      - serializedVersion: 3
+        time: 0.08763405
+        value: 0.7589741
+        inSlope: 1.0141021
+        outSlope: 1.0141021
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.12801188
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.011781603
+        outSlope: 0.011781603
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3875503
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    AccelerationTime: 1.5
+    AccelerationTime: 15
   LaneOffset: 4

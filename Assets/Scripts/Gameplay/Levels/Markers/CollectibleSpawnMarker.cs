@@ -7,6 +7,16 @@ namespace Gameplay.Levels.Markers
     {
         [SerializeField] private CollectibleType _type;
 
-        public CollectibleType Type => _type;
+        public CollectibleType Type
+        {
+            get => _type;
+            set => _type = value;
+        }
+        
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawSphere(transform.position + Vector3.up * 0.5f, 0.25f);
+        }
     }
 }
