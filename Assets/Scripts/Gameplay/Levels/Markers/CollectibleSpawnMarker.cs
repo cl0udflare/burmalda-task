@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using Gameplay.Collects;
+using UnityEngine;
 
-namespace Gameplay.Collects
+namespace Gameplay.Levels.Markers
 {
     public class CollectibleSpawnMarker : MonoBehaviour
     {

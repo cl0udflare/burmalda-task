@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Gameplay.Player
+namespace Gameplay.Levels.Markers
 {
     public class PlayerSpawnMarker : MonoBehaviour
     {

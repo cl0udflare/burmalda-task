@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: adfae2c508d14bb084334752f0645147, type: 3}
-  m_Name: LevelTransferConfig
+  m_Name: Level_1_TransferConfig
   m_EditorClassIdentifier: 
   LevelName: Level_1
   PlayerSpawn:

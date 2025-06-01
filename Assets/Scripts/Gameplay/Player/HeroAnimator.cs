@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Gameplay.Player
 {
+    [RequireComponent(typeof(Animator))]
     public class HeroAnimator : MonoBehaviour, IAnimationStateReader
     {
         private static readonly int Speed = Animator.StringToHash("Speed");
@@ -17,26 +18,21 @@ namespace Gameplay.Player
         private readonly int _jumpStateHash = Animator.StringToHash("Jump");
 
         [SerializeField] private Animator _animator;
-        
-        private CharacterController _controller;
-        private IAnimationStateReader _animationStateReaderImplementation;
+        [SerializeField] private CharacterController _controller;
 
         public AnimatorState State { get; private set; }
         
         public event Action<AnimatorState> StateEntered;
         public event Action<AnimatorState> StateExited;
         
-        private void OnValidate()
-        {
-            if (!_animator) _animator = GetComponentInChildren<Animator>();
-        }
+        private void OnValidate() => 
+            _animator = GetComponent<Animator>();
 
-        private void Update() => Move();
+        private void Update() => 
+            Move();
 
-        public void Init(CharacterController characterController) => 
-            _controller = characterController;
-
-        public void PlayJump() => _animator.SetTrigger(Jump);
+        public void PlayJump() => 
+            _animator.SetTrigger(Jump);
         
         public void PlayStrafeLeft()
         {

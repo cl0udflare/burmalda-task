@@ -1,4 +1,4 @@
-﻿using Infrastructure.Services.Cameras;
+﻿using Gameplay.Services.Cameras;
 using Unity.Cinemachine;
 using UnityEngine;
 using Zenject;

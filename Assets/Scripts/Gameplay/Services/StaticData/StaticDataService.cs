@@ -3,6 +3,7 @@ using System.Linq;
 using Gameplay.Collects;
 using Gameplay.Collects.Configs;
 using Gameplay.Levels;
+using Gameplay.Levels.Configs;
 using Gameplay.Player.Configs;
 using Infrastructure.AssetManagement;
 using Logging;

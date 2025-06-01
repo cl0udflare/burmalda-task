@@ -72,7 +72,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 822bb8c5e0274f14887a94e1668f2069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterController: {fileID: 8718001814008275050}
   _movement: {fileID: 2436969650610774656}
   _animator: {fileID: 1884547669901609074}
 --- !u!114 &2436969650610774656
@@ -212,3 +211,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 3967132801211225656}
+  _controller: {fileID: 8718001814008275050}

@@ -1,7 +1,7 @@
 ﻿using Unity.Cinemachine;
 using UnityEngine;
 
-namespace Infrastructure.Services.Cameras
+namespace Gameplay.Services.Cameras
 {
     public interface ICameraProvider
     {

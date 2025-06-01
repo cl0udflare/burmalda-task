@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Gameplay.Collects;
 using Gameplay.Collects.Configs;
 using Gameplay.Levels;
+using Gameplay.Levels.Configs;
 using Gameplay.Player.Configs;
 using UI.Windows.Configs;
 

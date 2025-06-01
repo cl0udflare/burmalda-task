@@ -2,7 +2,7 @@
 using System.Linq;
 using Gameplay.Collects;
 using Gameplay.Curtain.Factory.Curtain;
-using Gameplay.Levels;
+using Gameplay.Levels.Configs;
 using Gameplay.Player;
 using Gameplay.Player.Factory;
 using Gameplay.Services.StaticData;
