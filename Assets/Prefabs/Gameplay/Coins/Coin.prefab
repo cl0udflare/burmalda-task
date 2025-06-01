@@ -131,6 +131,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4194458424217749525}
   - component: {fileID: 2867663547337954771}
+  - component: {fileID: 1755506616650376130}
+  - component: {fileID: 4812146878574688743}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -167,3 +169,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _triggerObserver: {fileID: 7862124578263148162}
+  _collectAnimation: {fileID: 1755506616650376130}
+--- !u!114 &1755506616650376130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083093363131861470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851046acf7e84a01a22d550d985e5f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _jumpPower: 1.5
+  _jumpDuration: 0.4
+  _jumpCount: 1
+  _fadeDuration: 0.2
+  _scaleDownDuration: 0.3
+  _startOnAwake: 0
+--- !u!114 &4812146878574688743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083093363131861470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e09836e335406a8bb8b6d64b56fb7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationAxis: {x: 0, y: 1, z: 0}
+  _rotationSpeed: 90
+  _loop: 1
+  _startOnAwake: 1

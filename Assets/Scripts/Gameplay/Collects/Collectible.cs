@@ -1,12 +1,15 @@
 ﻿using System;
+using Gameplay.Animations.DoAnimations;
 using Gameplay.Player;
 using UnityEngine;
 
 namespace Gameplay.Collects
 {
+    [RequireComponent(typeof(DoCollect))]
     public class Collectible : MonoBehaviour
     {
         [SerializeField] private TriggerObserver _triggerObserver;
+        [SerializeField] private DoCollect _collectAnimation;
         
         private CollectibleType _type;
         private int _value;
@@ -19,6 +22,7 @@ namespace Gameplay.Collects
         private void OnValidate()
         {
             if(!_triggerObserver) _triggerObserver = GetComponentInChildren<TriggerObserver>();
+            if(!_collectAnimation) _collectAnimation = GetComponentInChildren<DoCollect>();
         }
         
         public void SetData(CollectibleType type, int value)
@@ -34,7 +38,10 @@ namespace Gameplay.Collects
 
         public void DestroyCollectible()
         {
-            Destroy(gameObject);
+            _collectAnimation.Play(() =>
+            {
+                Destroy(gameObject);
+            });
         }
 
         private void TriggerEnter(Collider trigger)
